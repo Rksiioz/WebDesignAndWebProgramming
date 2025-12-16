@@ -1,0 +1,18 @@
+/* Common styles */
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./animations.css');
+
+/* Sections style */
+@import url('./header.css');
+@import url('./mobile-menu.css');
+@import url('./section-one.css');
+@import url('./section-two.css');
+@import url('./section-three.css');
+@import url('./section-background-image.css');
+@import url('./section-four.css');
+@import url('./section-pricing.css');
+@import url('./section-five.css');
+@import url('./section-six.css');
+@import url('./footer.css');
