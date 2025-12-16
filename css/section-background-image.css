@@ -1,0 +1,100 @@
+/* Styles for mobile devices */
+.background-image-section {
+  padding: 100px 0;
+  margin: 0 auto;
+  position: relative;
+  background-image: url(../images/dan-gold-4_jhDO54BYg-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.background-image-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(20, 20, 20, 0.5);
+  z-index: 0;
+}
+
+.background-image-container {
+  position: relative;
+  z-index: 1;
+}
+
+.background-image-content {
+  max-width: 335px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.background-image-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.background-image-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fbfbfb;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+  .background-image-section {
+    padding: 150px 0;
+    background-attachment: scroll;
+  }
+
+  .background-image-content {
+    max-width: 600px;
+    padding: 60px 30px;
+  }
+
+  .background-image-title {
+    font-size: 56px;
+    margin-bottom: 25px;
+  }
+
+  .background-image-text {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1280px) {
+  .background-image-section {
+    padding: 200px 0;
+    background-attachment: fixed;
+  }
+
+  .background-image-content {
+    max-width: 800px;
+    padding: 80px 40px;
+  }
+
+  .background-image-title {
+    font-size: 72px;
+    margin-bottom: 30px;
+  }
+
+  .background-image-text {
+    font-size: 20px;
+    line-height: 1.7;
+  }
+}
+
